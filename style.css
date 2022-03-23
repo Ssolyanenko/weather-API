@@ -1,0 +1,98 @@
+html,
+body {
+    font-family: serif;
+}
+
+body {
+    margin: 20px;
+}
+
+#city {
+    text-align: center;
+}
+
+
+.card {
+    background: url(https://uprostim.com/wp-content/uploads/2021/04/image059-6-720x720.png) center no-repeat;
+    background-size: cover;
+
+
+    display: block;
+    font-family: serif;
+    text-align: center;
+    width: 180px;
+    height: 350px;
+    margin: 0 auto;
+    border: 1px solid rgb(161, 161, 161);
+    border-radius: 5px;
+
+
+
+
+}
+
+.card:hover {
+
+    -webkit-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+}
+
+.city {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    line-height: 32px;
+
+}
+
+
+
+.date {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    background-color: #69cf;
+    color: white;
+}
+
+
+.icon {
+    width: 200px;
+    height: 220px;
+    background-color: AliceBlue;
+    margin: 0 auto 19px;
+}
+
+.sun img {
+    width: 70px;
+    margin-top: 20px;
+}
+
+
+
+
+.temperature {
+    display: block;
+    min-height: 80px;
+    font-size: 30px;
+    padding-bottom: 0px;
+
+}
+
+.temperature::after {
+    content: "C";
+}
+
+.wind-speed {
+    font-size: 20px;
+    margin-bottom: 5px;
+    padding-bottom: 20px;
+}
+
+#city-two {
+    display: block;
+    margin: 0 auto;
+
+
+}
